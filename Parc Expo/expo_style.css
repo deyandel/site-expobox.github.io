@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF6E9;
+}
+.fond-accueil{
+     background-image: url("ressource/image_expo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+button{
+    height: 25px;
+    font-size: small;
+
+}
+h1{
+    padding-top: 3%;
+    text-align: center;
+}
+h2{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+input
+{
+margin: 60px;
+}
+#message{
+    
+    width: 90%;
+    height: 100px;
+   
+}
+   
+
+.imageCentre
+{
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  min-width: 40%;
+  padding-bottom: 20px;
+
+}
+.centre
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+
+
+nav ul{
+    margin: 0%;
+   padding: 0%;
+    background-color: #FFF6E9;
+   overflow: hidden;
+}
+
+
+nav li{
+    list-style-type: none;
+    float: left;
+    
+    text-align: center;
+}
+nav li a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#orange
+{
+    color: #FF7F3E;
+}
+#bleu-clair
+{
+    color:#80C4E9;
+}
+#bleu
+{
+    color: #1982C4;
+}
+#blanc
+{
+    color: #FFF6E9;
+}
+.gest-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    gap:100px;
+    width:"50%";
+}
+.choix-menu{
+    width: 19.163%;
+    border-top: 8px solid #FF7F3E;
+    border-bottom: 10px solid #FF7F3E;
+    background-color: #FF7F3E
+    
+    }
+
+.choix-menu:hover{
+
+    border-top: 8px solid #604CC3;
+    border-bottom: 10px solid #604CC3;
+    background-color: #604CC3;
+    
+    }
+.choisi-menu{
+    width: 19.13%;
+    border-top: 8px solid #604CC3;
+    border-bottom: 10px solid #604CC3;
+    background-color: #604CC3;
+    
+    
+}
+
+#logo-expo{
+    
+    width: 80px;
+}
+.logo
+{
+    width: 70px;
+}
